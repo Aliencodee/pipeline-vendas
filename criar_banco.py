@@ -1,6 +1,7 @@
 import sqlite3
 
 conexao = sqlite3.connect('dataset.db')
+cursor = conexao.cursor()
 
 criar_table = """ 
       CREATE TABLE vendas (
@@ -14,7 +15,7 @@ criar_table = """
       )
 """ 
 
-conexao.execute(criar_table)
+cursor.execute(criar_table)
 
 conexao.commit()
 conexao.close()
