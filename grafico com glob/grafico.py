@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import glob
 import pandas as pd
 
-arquivos = glob.glob('C:/Users/es.felipe.oliveira/Desktop/pratica/VarejoBR/*.csv')
+arquivos = glob.glob('BR/*.csv')
 
 df = pd.concat([pd.read_csv(f) for f in arquivos], ignore_index=True)
 
