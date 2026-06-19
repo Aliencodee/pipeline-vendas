@@ -4,7 +4,7 @@ conexao = sqlite3.connect('dataset.db')
 cursor = conexao.cursor()
 
 criar_table = """ 
-      CREATE TABLE vendas (
+      CREATE TABLE IF NOT EXISTS vendas (
       id INT PRIMARY KEY,
       mes VARCHAR(20),
       trimestre VARCHAR(2),
