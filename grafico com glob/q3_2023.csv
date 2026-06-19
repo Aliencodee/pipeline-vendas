@@ -1,0 +1,7 @@
+id,mes,trimestre,ano,vendedor,categoria,qtd,preco_unit
+1,Jul,Q3,2023,Carlos,Eletronicos,45,450
+2,Jul,Q3,2023,Beatriz,Vestuario,110,90
+3,Ago,Q3,2023,Rafael,Eletronicos,80,450
+4,Ago,Q3,2023,Carlos,Vestuario,70,90
+5,Set,Q3,2023,Beatriz,Eletronicos,50,450
+6,Set,Q3,2023,Rafael,Vestuario,60,90
